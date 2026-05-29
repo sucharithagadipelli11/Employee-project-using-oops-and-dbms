@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee System</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 30px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            color: black;
+            width: 220px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn {
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background: #667eea;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            background: #4a5bdc;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>🚀 Employee Management System</h1>
+
+<div class="container">
+
+    <div class="card">
+        <h3>➕ Add Employee</h3>
+        <a class="btn" href="/add">Open</a>
+    </div>
+
+    <div class="card">
+        <h3>👥 View Employees</h3>
+        <a class="btn" href="/view">Open</a>
+    </div>
+
+    <div class="card">
+        <h3>📅 Attendance</h3>
+        <a class="btn" href="/attendance">Mark</a>
+    </div>
+
+    <div class="card">
+        <h3>📊 View Attendance</h3>
+        <a class="btn" href="/view_attendance">Open</a>
+    </div>
+
+</div>
+
+</body>
+</html>
